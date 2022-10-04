@@ -1,0 +1,83 @@
+@import "../../Assets/mixins";
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(../../Assets/image/img6.jpeg) center no-repeat;
+  background-size: cover;
+  font-family: iransans;
+
+  .header__container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header__nav {
+    padding-top: 1rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .login {
+      border: 1px solid $color-red;
+      padding: 8px 14px;
+      font-family: iransans;
+      font-weight: bold;
+      margin-left: 8px;
+      background-color: transparent;
+      border-radius: 5px;
+      color: $color-red;
+      transition: all 0.3s;
+
+      &:hover {
+        color: white;
+        background-color: $color-red;
+      }
+    }
+
+    .signup {
+      background-color: $color-dark;
+      border: 1px solid $color-dark;
+      border-radius: 5px;
+      font-family: iransans;
+      font-weight: bold;
+      color: white;
+      padding: 8px;
+      transition: all 0.3s;
+      &:hover {
+        color: $color-dark;
+        background-color: transparent;
+        border: 1px solid $color-dark;
+      }
+    }
+
+    .header__logo {
+      margin-right: auto;
+      font-size: 70px;
+      align-self: flex-end;
+      color: $color-red;
+    }
+  }
+
+  .header__iconDown {
+    @include positionHedear(85%);
+    color: $color-red;
+    font-size: 32px;
+  }
+  .header__social {
+    position: absolute;
+    bottom: 30px;
+    left: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+
+    span {
+      margin-right: 12px;
+      transition: all 0.3s;
+      &:hover {
+        color: $color-red;
+      }
+    }
+  }
+}
