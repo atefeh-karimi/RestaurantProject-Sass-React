@@ -19,35 +19,35 @@ header {
     align-items: center;
 
     .login {
-      border: 1px solid $color-red;
-      padding: 8px 14px;
-      font-family: iransans;
-      font-weight: bold;
+      @include btnStyle(
+        transparent,
+        $color-red,
+        16px,
+        bold,
+        1px solid $color-red,
+        all 0.3s,
+        8px 14px
+      );
       margin-left: 8px;
-      background-color: transparent;
-      border-radius: 5px;
-      color: $color-red;
-      transition: all 0.3s;
 
       &:hover {
-        color: white;
-        background-color: $color-red;
+        @include btnStyleHover(white, 1px solid $color-red, $color-red);
       }
     }
 
     .signup {
-      background-color: $color-dark;
-      border: 1px solid $color-dark;
-      border-radius: 5px;
-      font-family: iransans;
-      font-weight: bold;
-      color: white;
-      padding: 8px;
-      transition: all 0.3s;
+      @include btnStyle(
+        $color-dark,
+        white,
+        16px,
+        bold,
+        1px solid $color-dark,
+        all 0.3s,
+        8px
+      );
+
       &:hover {
-        color: $color-dark;
-        background-color: transparent;
-        border: 1px solid $color-dark;
+        @include btnStyleHover($color-dark, 1px solid $color-dark, transparent);
       }
     }
 

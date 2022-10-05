@@ -12,19 +12,28 @@
   transform: translate(-50%, -50%);
 }
 
-@mixin btnStyle {
-  background-color: $color-red;
-  border: 1px solid $color-red;
+@mixin btnStyle(
+  $bgColor,
+  $textColor,
+  $fs: 16px,
+  $fw: bold,
+  $borderStyle,
+  $transition: all 0.3s,
+  $padding
+) {
+  background-color: $bgColor;
+  color: $textColor;
+  font-size: $fs;
+  font-weight: $fw;
+  border: $borderStyle;
+  transition: $transition;
+  padding: $padding;
+  border-radius: 5px;
   font-family: iransans;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 8px 16px;
-  transition: all 0.2s;
-  color: white;
 }
 
-@mixin btnStyleHover {
-  color: white;
-  border: 1px solid white;
-  background-color: transparent;
+@mixin btnStyleHover($textColor, $borderStyle, $bgColor) {
+  color: $textColor;
+  border: $borderStyle;
+  background-color: $bgColor;
 }
