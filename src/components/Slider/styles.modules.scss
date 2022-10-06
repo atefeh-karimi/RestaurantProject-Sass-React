@@ -1,0 +1,21 @@
+@import "../../Assets/mixins";
+.gallery {
+  background-color: white;
+  color: black;
+}
+.gallery__container {
+  height: 100vh;
+  text-align: center;
+
+  h2 {
+    padding-top: 2rem;
+    font-weight: bold;
+  }
+}
+
+.gallery__cards {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

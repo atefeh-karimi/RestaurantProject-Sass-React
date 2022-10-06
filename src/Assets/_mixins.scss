@@ -15,10 +15,10 @@
 @mixin btnStyle(
   $bgColor,
   $textColor,
-  $fs: 16px,
-  $fw: bold,
+  $fs,
+  $fw,
   $borderStyle,
-  $transition: all 0.3s,
+  $transition,
   $padding
 ) {
   background-color: $bgColor;
