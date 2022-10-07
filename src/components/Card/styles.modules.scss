@@ -3,62 +3,52 @@
   position: relative;
   border: 0;
   cursor: pointer;
-  overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
-  &:hover .card__overlay {
-    left: 0;
+  .card__img {
+    width: 100%;
+    border-radius: 9px;
+    height: 100%;
+    img {
+      object-fit: contain;
+    }
   }
-
+  .category {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 0 10px;
+    border-radius: 8px 0 0 0;
+    &:hover .angleIcon {
+      transform: translateX(-3px);
+    }
+    p {
+      margin: 0;
+      padding: 1px;
+    }
+    .angleIcon {
+      color: $color-red;
+      margin-right: 2px;
+    }
+  }
   .discount {
-    width: 50px;
-    height: 50px;
     position: absolute;
     top: 10px;
     left: 10px;
     text-align: center;
-    padding-top: 12px;
     color: white;
     font-size: bold;
     font-family: iransans;
     font-size: 18px;
     border-radius: 50%;
     background-color: #ef4123;
-  }
-
-  &__overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: -100%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    background-color: rgba($color: black, $alpha: 0.7);
-    h1 {
-      padding-top: 1rem;
-    }
-
     p {
-      padding: 5px 0;
-    }
-
-    .card__btn {
-      @include btnStyle(
-        $color-red,
-        white,
-        16px,
-        500,
-        1px solid $color-red,
-        all 0.2s,
-        8px 16px
-      );
-
-      &:hover {
-        @include btnStyleHover(white, 1px solid white, transparent);
-      }
+      margin: 0;
+      padding: 0.25rem;
     }
   }
 }

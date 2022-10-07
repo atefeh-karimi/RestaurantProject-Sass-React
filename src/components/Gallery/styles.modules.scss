@@ -1,5 +1,6 @@
 @import "../../Assets/mixins";
 .gallery {
+  position: relative;
   background-color: white;
   color: black;
 }
@@ -15,7 +16,12 @@
 
 .gallery__cards {
   padding: 2rem 0;
+  // display: flex;
+  // flex-direction: row;
+  // width: 100%;
+  // display: flex;
+  gap: 30px;
+  // height: 250px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
 }

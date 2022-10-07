@@ -1,7 +1,7 @@
 import React from "react";
 import ContextData from "./Context/ContextData";
 import Header from "./components/Header/Header";
-import Slider from "./components/Slider/Slider";
+import Gallery from "./components/Gallery/Gallery";
 import { data } from "./Assets/data";
 import "./styles.module.scss";
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <ContextData.Provider value={data}>
         <Header />
-        <Slider />
+        <Gallery />
       </ContextData.Provider>
     </>
   );

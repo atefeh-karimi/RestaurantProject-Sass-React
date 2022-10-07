@@ -8,6 +8,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import "./styles.modules.scss";
+
 const Search = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
@@ -22,6 +23,7 @@ const Search = styled(Box)(({ theme }) => ({
   background: " rgb(133 121 121 / 18%)",
   backdropFilter: "blur(20px)",
 }));
+
 function Header() {
   return (
     <header>
@@ -35,7 +37,7 @@ function Header() {
         <Search bgcolor={"background.default"} color={"text.primary"}>
           <InputBase
             sx={{ width: "100%", fontSize: "18px" }}
-            placeholder="جستجو..."
+            placeholder="جست‌و‌جو..."
           />
         </Search>
 

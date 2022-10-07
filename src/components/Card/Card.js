@@ -1,18 +1,22 @@
 import React from "react";
+import { FaAngleLeft } from "react-icons/fa";
 import "./styles.modules.scss";
 
-function Card({ title, img, price, discount }) {
+function Card({ title, img, price, discount, category }) {
   return (
     <div className="card">
-      <div className="card__overlay">
-        <h2>{title}</h2>
-        <p>قیمت: {price} ریال</p>
-        <a className="card__btn btn" href="/">
-          سفارش
-        </a>
-      </div>
       <img src={img} className="card__img" alt="" />
-      {discount && <small class="discount">٪{discount}</small>}
+      {discount && (
+        <div className="discount">
+          <p>٪{discount}</p>
+        </div>
+      )}
+      {category && (
+        <div className="category">
+          <p>دسته</p>
+          <FaAngleLeft className="angleIcon" />
+        </div>
+      )}
     </div>
   );
 }
