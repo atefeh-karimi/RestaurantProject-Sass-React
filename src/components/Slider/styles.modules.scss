@@ -1,0 +1,38 @@
+@import "../../Assets/mixins";
+
+section {
+  margin: 1rem 0;
+  height: 80vh;
+  background-color: $color-red;
+  padding: 1rem;
+}
+.swiper {
+  direction: rtl;
+  width: 100%;
+  height: 80%;
+  background-color: red;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  font-weight: bolder;
+}
