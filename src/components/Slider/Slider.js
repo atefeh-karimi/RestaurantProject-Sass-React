@@ -9,7 +9,7 @@ import { specialDiscount } from "../../Assets/data";
 
 export default function Sliders() {
   return (
-    <section>
+    <section className="ContainerSlider">
       <h1 className="text-white text-center pb-2">تخفیف ویژه</h1>
       <Swiper
         slidesPerView={4}

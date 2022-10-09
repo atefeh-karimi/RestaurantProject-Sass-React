@@ -80,6 +80,48 @@ export const data = [
     img: "./image/5.jpg",
   },
 ];
+export const Discount = [
+  {
+    id: 1,
+    title: "نام غذا",
+    price: "۲۰۰۰۰۰",
+    discount: "۱۰",
+    category: "",
+    img: "./image/1.jpg",
+  },
+  {
+    id: 2,
+    title: "نام غذا",
+    price: "۲۰۰۰۰۰",
+    discount: "۵",
+    category: "",
+    img: "./image/2.jpg",
+  },
+  {
+    id: 3,
+    title: "نام غذا",
+    price: "۲۰۰۰۰۰",
+    discount: "۳۰",
+    category: "",
+    img: "./image/3.jpg",
+  },
+  {
+    id: 4,
+    title: "نام غذا",
+    price: "۲۰۰۰۰۰",
+    discount: "۱۰",
+    category: "",
+    img: "./image/4.jpg",
+  },
+  {
+    id: 5,
+    title: "نام غذا",
+    price: "۲۰۰۰۰۰",
+    discount: "۱۰",
+    category: "",
+    img: "./image/5.jpg",
+  },
+];
 export const specialDiscount = [
   {
     id: 1,

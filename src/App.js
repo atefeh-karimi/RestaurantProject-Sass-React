@@ -4,7 +4,8 @@ import "swiper/css/bundle";
 import Header from "./components/Header/Header";
 import Gallery from "./components/Gallery/Gallery";
 import Sliders from "./components/Slider/Slider";
-import { data } from "./Assets/data";
+import Promotion from "./components/Promotion/Promotion";
+import { data, Discount } from "./Assets/data";
 import "./styles.module.scss";
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
     <>
       <ContextData.Provider value={data}>
         <Header />
-        <Gallery />
+        <Gallery title="دسته‌‌بندی‌ها" data={data} />
         <Sliders />
+        <Gallery title="دارای کوپن" data={Discount} />
+        <Promotion />
       </ContextData.Provider>
     </>
   );
