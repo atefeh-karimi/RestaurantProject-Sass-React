@@ -1,0 +1,57 @@
+@import "../../Assets/mixins";
+footer {
+  padding: 3rem 0 4rem 0;
+  background-color: #383c47;
+  color: white;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.footer__container h3 {
+  padding-bottom: 1rem;
+  font-size: 18px;
+}
+
+.apps {
+  display: flex;
+
+  img {
+    cursor: pointer;
+  }
+
+  img + img {
+    margin-right: 8px;
+  }
+}
+
+.footer__feedback {
+  padding-right: 2rem;
+  a {
+    color: white;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.footer__socials {
+  span {
+    font-size: 24px;
+    margin-right: 12px;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-red;
+    }
+  }
+}
+
+.footer__socials-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

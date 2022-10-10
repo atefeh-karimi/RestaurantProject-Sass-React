@@ -7,6 +7,7 @@ import {
   FaPaperPlane,
   FaInstagram,
 } from "react-icons/fa";
+import SocialIcons from "../SocialIcons";
 import "./styles.modules.scss";
 
 const Search = styled(Box)(({ theme }) => ({
@@ -46,15 +47,7 @@ function Header() {
         </a>
 
         <div className="header__social">
-          <span>
-            <FaPinterest />
-          </span>
-          <span>
-            <FaPaperPlane />
-          </span>
-          <span>
-            <FaInstagram />
-          </span>
+          <SocialIcons />
         </div>
       </div>
     </header>

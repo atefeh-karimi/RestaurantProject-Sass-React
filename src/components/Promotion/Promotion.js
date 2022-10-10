@@ -1,4 +1,5 @@
 import React from "react";
+import AppPromotion from "../AppPromotion";
 import "./styles.modules.scss";
 
 function Promotion() {
@@ -29,9 +30,7 @@ function Promotion() {
           </div>
 
           <div className="apps">
-            <img src="./image/android-google-play.svg" alt="google-play" />
-            <img src="./image/apple-app-sotre.svg" alt="apple-store" />
-            <img src="./image/huawei-download-icon.png" alt="huawei" />
+            <AppPromotion />
           </div>
         </div>
 
