@@ -58,6 +58,10 @@ header {
       color: $color-red;
     }
   }
+  .searchBox {
+    width: 60%;
+    margin: 0 auto;
+  }
 
   .header__iconDown {
     @include positionHedear(85%);
@@ -77,6 +81,38 @@ header {
       transition: all 0.3s;
       &:hover {
         color: $color-red;
+      }
+    }
+  }
+}
+
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  header {
+    .searchBox {
+      width: 80%;
+    }
+  }
+}
+
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+    .header__social {
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%);
+    }
+    .header__container {
+      height: 90vh;
+    }
+
+    .header__nav {
+      justify-content: center;
+
+      .header__logo {
+        display: none;
       }
     }
   }

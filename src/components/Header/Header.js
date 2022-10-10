@@ -11,16 +11,16 @@ import SocialIcons from "../SocialIcons";
 import "./styles.modules.scss";
 
 const Search = styled(Box)(({ theme }) => ({
-  display: "flex",
-  justifyContent: "center",
+  // display: "flex",
+  // justifyContent: "center",
   padding: "7px 10px",
   borderRadius: theme.shape.borderRadius,
-  width: "50%",
+  width: "100%",
   position: "relative",
   top: "30px",
-  left: 0,
-  right: 0,
-  margin: "0 auto",
+  // left: 0,
+  // right: 0,
+  // margin: "0 auto",
   background: " rgb(133 121 121 / 18%)",
   backdropFilter: "blur(20px)",
 }));
@@ -35,12 +35,14 @@ function Header() {
           <FaUtensils className="header__logo" />
         </div>
 
-        <Search bgcolor={"background.default"} color={"text.primary"}>
-          <InputBase
-            sx={{ width: "100%", fontSize: "18px" }}
-            placeholder="جست‌و‌جو..."
-          />
-        </Search>
+        <div className="searchBox">
+          <Search>
+            <InputBase
+              sx={{ width: "100%", fontSize: "18px" }}
+              placeholder="جست‌و‌جو..."
+            />
+          </Search>
+        </div>
 
         <a href="#gallery" className="header__iconDown">
           <FaAngleDoubleDown />

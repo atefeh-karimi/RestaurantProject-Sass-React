@@ -20,3 +20,20 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .gallery__container {
+    height: auto;
+  }
+
+  .gallery__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .gallery__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

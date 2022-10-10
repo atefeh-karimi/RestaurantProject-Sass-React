@@ -77,3 +77,89 @@
     }
   }
 }
+
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .appPromotion__container {
+    grid-template-columns: 1fr;
+  }
+
+  .appPromotion__info {
+    .apps {
+      margin-top: 2rem;
+      flex-wrap: wrap;
+
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+
+  .appPromotion__img img {
+    max-width: 350px;
+    margin-right: 85px;
+  }
+
+  .getNum {
+    input {
+      padding: 12px 30px;
+      border-radius: 0 9px 9px 0;
+      font-size: 18px;
+    }
+
+    button {
+      padding: 12px 10px;
+      // margin-right: -12px;
+      margin-right: 0;
+      border-radius: 9px 0 0 9px;
+      font-size: 18px;
+    }
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .appPromotion__info {
+    .apps {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 1rem;
+      img {
+        max-width: 130px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .appPromotion__info {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      // padding: 12px 2rem 2rem 2rem;
+      margin-bottom: 18px;
+    }
+  }
+
+  .getNum {
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 12px 15px;
+      border-radius: 9px;
+      margin-bottom: 8px;
+    }
+    button {
+      padding: 8px 5px;
+      margin-right: 0;
+      border-radius: 9px;
+      align-self: center;
+    }
+  }
+
+  .appPromotion__img img {
+    display: none;
+    // max-width: 300px;
+    // margin-right: 50px;
+  }
+}

@@ -1,10 +1,11 @@
 @import "../../Assets/mixins";
 
 .ContainerSlider {
+  display: none;
   margin: 1rem 0;
   height: 80vh;
   background-color: $color-red;
-  padding: 1rem;
+  padding: 1rem 3rem;
 }
 .swiper {
   direction: rtl;

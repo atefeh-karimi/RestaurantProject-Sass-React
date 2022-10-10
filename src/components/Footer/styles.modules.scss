@@ -1,6 +1,6 @@
 @import "../../Assets/mixins";
 footer {
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0 3rem 0;
   background-color: #383c47;
   color: white;
 }
@@ -54,4 +54,71 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+
+  h3 {
+    padding-bottom: 9px;
+    font-size: 14px;
+  }
+}
+
+footer .apps {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 8px;
+  }
+
+  img + img {
+    margin-right: 0;
+  }
+}
+
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .footer__socials {
+    ul {
+      li {
+        margin-right: 5px;
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .footer__socials-menu {
+    justify-content: center;
+  }
+}
+
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h3 {
+      padding-bottom: 5px;
+    }
+
+    .footer__feedback {
+      padding: 2rem 0;
+    }
+
+    .footer__socials {
+      li {
+        margin-right: 12px;
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
 }
