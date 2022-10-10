@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RestaurantProject-Sass-React/static/css/main.a50608fe.css",
+    "main.js": "/RestaurantProject-Sass-React/static/js/main.dc219f5f.js",
+    "static/media/img6.jpeg": "/RestaurantProject-Sass-React/static/media/img6.b84aae837702b52d53f7.jpeg",
+    "static/media/IRANSansX-Light.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-Light.a3f7f08223387a84148e.woff",
+    "static/media/IRANSansX-DemiBold.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-DemiBold.c3cc9f7644a168ced03b.woff",
+    "static/media/IRANSansX-Bold.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-Bold.49c203f42289924b6199.woff",
+    "static/media/IRANSansX-Medium.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-Medium.bc01b240dd4b0f366b4c.woff",
+    "static/media/IRANSansX-Regular.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-Regular.b186360fe81d2aca8322.woff",
+    "static/media/IRANSansX-Thin.woff": "/RestaurantProject-Sass-React/static/media/IRANSansX-Thin.457903f377f1cf09030a.woff",
+    "index.html": "/RestaurantProject-Sass-React/index.html",
+    "main.a50608fe.css.map": "/RestaurantProject-Sass-React/static/css/main.a50608fe.css.map",
+    "main.dc219f5f.js.map": "/RestaurantProject-Sass-React/static/js/main.dc219f5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a50608fe.css",
+    "static/js/main.dc219f5f.js"
+  ]
+}
