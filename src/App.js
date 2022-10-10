@@ -1,23 +1,24 @@
 import React from "react";
-import ContextData from "./Context/ContextData";
 import "swiper/css/bundle";
 import Header from "./components/Header/Header";
 import Gallery from "./components/Gallery/Gallery";
 import Sliders from "./components/Slider/Slider";
 import Promotion from "./components/Promotion/Promotion";
-import { data, Discount } from "./Assets/data";
-import "./styles.module.scss";
+import Brands from "./components/Brands/Brands";
+import Footer from "./components/Footer/Footer";
+import { category, Discount } from "./Assets/data";
+import "./styles.modules.scss";
 
 function App() {
   return (
     <>
-      <ContextData.Provider value={data}>
-        <Header />
-        <Gallery title="دسته‌‌بندی‌ها" data={data} />
-        <Sliders />
-        <Gallery title="دارای کوپن" data={Discount} />
-        <Promotion />
-      </ContextData.Provider>
+      <Header />
+      <Gallery title="دسته‌‌بندی‌ها" data={category} />
+      <Sliders />
+      <Gallery title="دارای کوپن" data={Discount} />
+      <Promotion />
+      <Brands />
+      <Footer />
     </>
   );
 }

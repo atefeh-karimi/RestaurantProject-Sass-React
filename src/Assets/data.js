@@ -1,4 +1,4 @@
-export const data = [
+export const category = [
   {
     id: 1,
     title: "نام غذا",
@@ -80,6 +80,7 @@ export const data = [
     img: "./image/5.jpg",
   },
 ];
+
 export const Discount = [
   {
     id: 1,
@@ -122,6 +123,7 @@ export const Discount = [
     img: "./image/5.jpg",
   },
 ];
+
 export const specialDiscount = [
   {
     id: 1,
@@ -194,5 +196,56 @@ export const specialDiscount = [
     specialDiscount: "1",
     category: "دسته",
     img: "./image/img5.jpg",
+  },
+];
+
+export const brands = [
+  {
+    id: 1,
+    title: "McDonald's",
+    img: "./image/mcdelivery-editorial.png",
+    link: "",
+  },
+  {
+    id: 2,
+    title: "StarBucks",
+    img: "./image/starbucks.jpg",
+    link: "",
+  },
+  {
+    id: 3,
+    title: "Abokodo",
+    img: "./image/ABOKADO.jpg",
+    link: "",
+  },
+  {
+    id: 4,
+    title: "Bubble",
+    img: "./image/bubble.jpg",
+    link: "",
+  },
+  {
+    id: 5,
+    title: "Coca-Cola",
+    img: "./image/Coca-Cola.jpg",
+    link: "",
+  },
+  {
+    id: 6,
+    title: "BoxPark",
+    img: "./image/BoxPark.jpg",
+    link: "",
+  },
+  {
+    id: 7,
+    title: "Ben & Jerry's",
+    img: "./image/Ben & Jerry's.jpg",
+    link: "",
+  },
+  {
+    id: 8,
+    title: "Sams's chicken",
+    img: "./image/sams-chicken.jpg",
+    link: "",
   },
 ];
