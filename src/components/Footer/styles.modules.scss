@@ -1,9 +1,10 @@
 @import "../../Assets/mixins";
 footer {
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0;
   background-color: #383c47;
   color: white;
 }
+
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -18,11 +19,9 @@ footer {
 
 .apps {
   display: flex;
-
   img {
     cursor: pointer;
   }
-
   img + img {
     margin-right: 8px;
   }
@@ -43,7 +42,6 @@ footer {
     font-size: 24px;
     margin-right: 12px;
     cursor: pointer;
-
     &:hover {
       color: $color-red;
     }
@@ -56,39 +54,35 @@ footer {
   align-items: center;
 }
 
-.footer__container {
-  display: flex;
-  align-items: baseline;
-
-  h3 {
-    padding-bottom: 9px;
-    font-size: 14px;
-  }
-}
-
-footer .apps {
-  display: flex;
-  flex-direction: column;
-
-  img {
-    margin-bottom: 8px;
-  }
-
-  img + img {
-    margin-right: 0;
-  }
-}
-
 /* =====================MEDIA QUERIES(TABLET)==================== */
 @media screen and (max-width: 1024px) {
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+
+    h3 {
+      padding-bottom: 9px;
+      font-size: 16px;
+    }
+  }
+
+  footer .apps {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      margin-bottom: 8px;
+    }
+
+    img + img {
+      margin-right: 0;
+    }
+  }
+
   .footer__socials {
-    ul {
-      li {
-        margin-right: 5px;
-        i {
-          font-size: 18px;
-        }
-      }
+    span {
+      margin-right: 5px;
     }
   }
   .footer__socials-menu {

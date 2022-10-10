@@ -2,10 +2,10 @@ import React from "react";
 import { FaAngleLeft } from "react-icons/fa";
 import "./styles.modules.scss";
 
-function Card({ title, img, price, discount, category }) {
+function Card({ title, img, discount, category }) {
   return (
     <div className="card">
-      <img src={img} className="card__img" alt="" />
+      <img src={img} className="card__img" alt={title} />
       {discount && (
         <div className="discount">
           <p>٪{discount}</p>

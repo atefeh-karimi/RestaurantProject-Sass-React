@@ -1,7 +1,6 @@
 @import "../../Assets/mixins";
 
 .ContainerSlider {
-  display: none;
   margin: 1rem 0;
   height: 80vh;
   background-color: $color-red;
@@ -35,4 +34,10 @@
 .swiper-button-prev {
   color: white;
   font-weight: bolder;
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .ContainerSlider {
+    display: none;
+  }
 }

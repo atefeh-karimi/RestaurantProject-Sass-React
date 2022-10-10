@@ -1,26 +1,15 @@
 import { Box, InputBase, styled } from "@mui/material";
 import React from "react";
-import {
-  FaUtensils,
-  FaAngleDoubleDown,
-  FaPinterest,
-  FaPaperPlane,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaUtensils, FaAngleDoubleDown } from "react-icons/fa";
 import SocialIcons from "../SocialIcons";
 import "./styles.modules.scss";
 
 const Search = styled(Box)(({ theme }) => ({
-  // display: "flex",
-  // justifyContent: "center",
   padding: "7px 10px",
   borderRadius: theme.shape.borderRadius,
   width: "100%",
   position: "relative",
   top: "30px",
-  // left: 0,
-  // right: 0,
-  // margin: "0 auto",
   background: " rgb(133 121 121 / 18%)",
   backdropFilter: "blur(20px)",
 }));
