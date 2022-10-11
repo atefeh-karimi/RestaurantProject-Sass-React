@@ -12,9 +12,18 @@ export default function Sliders() {
     <section className="ContainerSlider">
       <h1 className="text-white text-center pb-2">تخفیف ویژه</h1>
       <Swiper
-        slidesPerView={4}
+        breakpoints={{
+          // when window width is >= 600px
+          600: {
+            slidesPerView: 3,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
         spaceBetween={30}
-        slidesPerGroup={4}
+        slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -27,7 +36,7 @@ export default function Sliders() {
         {specialDiscount.map((c, index) => {
           return (
             <SwiperSlide key={index}>
-              <img src={c.img} alt="c.title" />
+              <img src={process.env.PUBLIC_URL + c.img} alt={c.title} />
             </SwiperSlide>
           );
         })}

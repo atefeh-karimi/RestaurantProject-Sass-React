@@ -35,7 +35,10 @@ function Promotion() {
         </div>
 
         <div className="appPromotion__img">
-          <img src="./image/fig-iphone.png" alt="iphone" />
+          <img
+            src={process.env.PUBLIC_URL + "/image/fig-iphone.png"}
+            alt="iphone"
+          />
         </div>
       </div>
     </section>

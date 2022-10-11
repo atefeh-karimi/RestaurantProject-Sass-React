@@ -5,7 +5,7 @@ export const category = [
     price: "۷۵۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/1.jpg",
+    img: "/image/1.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const category = [
     price: "۵۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img4.jpeg",
+    img: "/image/img4.jpeg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const category = [
     price: "۶۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img7.jpeg",
+    img: "/image/img7.jpeg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const category = [
     price: "۲۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img5.jpg",
+    img: "/image/img5.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const category = [
     price: "۱۵۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img8.jpg",
+    img: "/image/img8.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const category = [
     price: "۳۵۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/2.jpg",
+    img: "/image/2.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const category = [
     price: "۵۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img3.jpg",
+    img: "/image/img3.jpg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const category = [
     price: "۶۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/3.jpg",
+    img: "/image/3.jpg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const category = [
     price: "۲۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/img15.jpg",
+    img: "/image/img15.jpg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const category = [
     price: "۲۰۰۰۰۰",
     discount: "",
     category: "دسته",
-    img: "./image/5.jpg",
+    img: "/image/5.jpg",
   },
 ];
 
@@ -88,7 +88,7 @@ export const Discount = [
     price: "۲۰۰۰۰۰",
     discount: "۱۰",
     category: "",
-    img: "./image/1.jpg",
+    img: "/image/1.jpg",
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ export const Discount = [
     price: "۲۰۰۰۰۰",
     discount: "۵",
     category: "",
-    img: "./image/2.jpg",
+    img: "/image/2.jpg",
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ export const Discount = [
     price: "۲۰۰۰۰۰",
     discount: "۳۰",
     category: "",
-    img: "./image/3.jpg",
+    img: "/image/3.jpg",
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ export const Discount = [
     price: "۲۰۰۰۰۰",
     discount: "۱۰",
     category: "",
-    img: "./image/4.jpg",
+    img: "/image/4.jpg",
   },
   {
     id: 5,
@@ -120,7 +120,7 @@ export const Discount = [
     price: "۲۰۰۰۰۰",
     discount: "۱۰",
     category: "",
-    img: "./image/5.jpg",
+    img: "/image/5.jpg",
   },
 ];
 
@@ -131,8 +131,7 @@ export const specialDiscount = [
     price: "۲۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img13.jpg",
+    img: "/image/img13.jpg",
   },
   {
     id: 2,
@@ -140,8 +139,7 @@ export const specialDiscount = [
     price: "۲۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img11.jpeg",
+    img: "/image/img11.jpeg",
   },
   {
     id: 3,
@@ -149,8 +147,7 @@ export const specialDiscount = [
     price: "۲۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img10.jpeg",
+    img: "/image/img10.jpeg",
   },
   {
     id: 4,
@@ -158,8 +155,7 @@ export const specialDiscount = [
     price: "۵۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img3.jpg",
+    img: "/image/img3.jpg",
   },
   {
     id: 5,
@@ -167,8 +163,7 @@ export const specialDiscount = [
     price: "۱۵۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img8.jpg",
+    img: "/image/img8.jpg",
   },
   {
     id: 6,
@@ -176,8 +171,7 @@ export const specialDiscount = [
     price: "۵۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img4.jpeg",
+    img: "/image/img4.jpeg",
   },
   {
     id: 7,
@@ -185,8 +179,7 @@ export const specialDiscount = [
     price: "۶۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img7.jpeg",
+    img: "/image/img7.jpeg",
   },
   {
     id: 8,
@@ -194,8 +187,7 @@ export const specialDiscount = [
     price: "۲۰۰۰۰۰",
     discount: "",
     specialDiscount: "1",
-    category: "دسته",
-    img: "./image/img5.jpg",
+    img: "/image/img5.jpg",
   },
 ];
 
@@ -203,49 +195,49 @@ export const brands = [
   {
     id: 1,
     title: "McDonald's",
-    img: "./image/mcdelivery-editorial.png",
+    img: "/image/mcdelivery-editorial.png",
     link: "",
   },
   {
     id: 2,
     title: "StarBucks",
-    img: "./image/starbucks.jpg",
+    img: "/image/starbucks.jpg",
     link: "",
   },
   {
     id: 3,
     title: "Abokodo",
-    img: "./image/ABOKADO.jpg",
+    img: "/image/ABOKADO.jpg",
     link: "",
   },
   {
     id: 4,
     title: "Bubble",
-    img: "./image/bubble.jpg",
+    img: "/image/bubble.jpg",
     link: "",
   },
   {
     id: 5,
     title: "Coca-Cola",
-    img: "./image/Coca-Cola.jpg",
+    img: "/image/Coca-Cola.jpg",
     link: "",
   },
   {
     id: 6,
     title: "BoxPark",
-    img: "./image/BoxPark.jpg",
+    img: "/image/BoxPark.jpg",
     link: "",
   },
   {
     id: 7,
     title: "Ben & Jerry's",
-    img: "./image/Ben & Jerry's.jpg",
+    img: "/image/Ben & Jerry's.jpg",
     link: "",
   },
   {
     id: 8,
     title: "Sams's chicken",
-    img: "./image/sams-chicken.jpg",
+    img: "/image/sams-chicken.jpg",
     link: "",
   },
 ];

@@ -1,12 +1,11 @@
 @import "../../Assets/mixins";
 
 .brands {
-  padding-top: 3rem;
+  margin: 2rem 0;
   background-color: white;
   color: black;
 }
 .brands__container {
-  height: 70vh;
   text-align: center;
   font-family: iransans;
 }

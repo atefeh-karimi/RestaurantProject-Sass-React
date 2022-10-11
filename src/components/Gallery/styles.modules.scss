@@ -8,12 +8,29 @@
   margin-bottom: 2rem;
   text-align: center;
 
-  h2 {
-    padding-top: 2rem;
-    font-weight: bold;
+  h3 {
+    font-size: 22px;
   }
 }
-
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login {
+  @include btnStyle(
+    transparent,
+    $color-red,
+    12px,
+    bold,
+    1px solid transparent,
+    all 0.3s,
+    2px 8px
+  );
+  &:hover .angleIcon {
+    transform: translateX(-3px);
+  }
+}
 .gallery__cards {
   padding: 2rem 0;
   gap: 30px;
